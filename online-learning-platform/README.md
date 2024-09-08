@@ -24,7 +24,6 @@ The project has been divided into feature-based branches for modular development
 ---   
 
 ### A1. **User Management Feature (Registration/Login)**
-- **Branch**: `user-management`
 - **Files Affected**:
     - `User.java`
     - `UserRepository.java`
@@ -32,22 +31,17 @@ The project has been divided into feature-based branches for modular development
     - `UserServiceImpl.java`
     - `RegistrationController.java`
     - `Role.java`
-- **Description**: This branch contains the code to manage user registration and login functionality, including handling roles and authentication logic.
-- **Commit Message**:
   ```
   feat: Implement user registration and login features
   ```
 ---
 ### A2. **Course Management Feature**
-- **Branch**: `course-management`
 - **Files Affected**:
     - `Course.java`
     - `CourseController.java`
     - `CourseRepository.java`
     - `CourseService.java`
     - `CourseServiceImpl.java`
-- **Description**: This branch contains the code for managing course CRUD (Create, Read, Update, Delete) operations. It allows instructors to create, update, and delete courses.
-- **Commit Message**:
   ```
   feat: Implement course management (CRUD operations for courses)
   ```
@@ -60,8 +54,7 @@ The project has been divided into feature-based branches for modular development
     - `QuizRepository.java`
     - `QuizService.java`
     - `QuizServiceImpl.java`
-- **Description**: This branch handles the quiz functionality, including creating quizzes and managing quiz questions and total marks. This feature supports CRUD operations for quizzes.
-- **Commit Message**:
+
   ```
   feat: Implement quiz management (CRUD operations for quizzes)
   ```
@@ -74,8 +67,7 @@ The project has been divided into feature-based branches for modular development
     - `EnrollmentRepository.java`
     - `EnrollmentService.java`
     - `EnrollmentServiceImpl.java`
-- **Description**: The code in this branch is responsible for managing student enrollment into courses. It provides functionality to handle enrollment and track student progress.
-- **Commit Message**:
+
   ```
   feat: Implement enrollment functionality (enroll students in courses)
   ```
@@ -85,8 +77,6 @@ The project has been divided into feature-based branches for modular development
 - **Files Affected**:
     - `application.properties`
     - `pom.xml`
-- **Description**: This branch contains configuration files such as the Spring Boot application properties and Maven project dependencies. It includes settings for database connections, Spring security, and other project-wide configurations.
-- **Commit Message**:
   ```
   chore: Update application properties and project dependencies
   ```
@@ -112,7 +102,6 @@ Moving forward with the development of the Online Learning Platform, there are s
   - **Dashboard**: Create a personalized dashboard where students can view enrolled courses, track progress, and view available quizzes.
   - **Course Management**: Display courses with details such as start date, end date, and instructor information.
   - **Quiz Interface**: A quiz page to allow students to attempt quizzes, track scores, and see feedback.
-- **Commit Message**:
   ```
   feat: Implement front-end templates using Thymeleaf for user registration, login, dashboard, and course management
   ```
@@ -132,7 +121,6 @@ Moving forward with the development of the Online Learning Platform, there are s
   - **JWT Token Generation**: Create a service to generate JWT tokens for authenticated users.
   - **Token Verification**: Add filters to verify the token and authenticate requests.
   - **Role-based Access**: Ensure that different roles (e.g., Admin, Instructor, Student) have the appropriate access level to certain resources.
-- **Commit Message**:
   ```
   feat: Add JWT-based authentication and role-based access control for enhanced security
   ```
@@ -151,7 +139,6 @@ Moving forward with the development of the Online Learning Platform, there are s
   - **User Management**: Admins can create, update, or remove users, assign roles (student, instructor, admin), and reset passwords.
   - **Course and Quiz Management**: Admins can add new courses, update existing courses, or remove courses from the system.
   - **Audit Logs**: Track and display recent activity in the system (e.g., user registrations, course enrollments).
-- **Commit Message**:
   ```
   feat: Implement admin management dashboard and user management features
   ```
@@ -170,7 +157,6 @@ Moving forward with the development of the Online Learning Platform, there are s
   - **Progress Tracking**: Automatically update progress based on completed quizzes and course milestones.
   - **Completion Criteria**: Define completion criteria, such as quizzes completed and minimum marks achieved.
   - **Completion Certificates**: Provide a downloadable certificate upon successful course completion.
-- **Commit Message**:
   ```
   feat: Implement course progress tracking and course completion certificates
   ```
@@ -189,7 +175,6 @@ Moving forward with the development of the Online Learning Platform, there are s
   - **Grading System**: Automatically calculate quiz scores after submission and save the results.
   - **Feedback**: Provide students with feedback based on their answers, and display the correct answers after grading.
   - **Leaderboard**: Add a leaderboard feature to display top-performing students for each quiz.
-- **Commit Message**:
   ```
   feat: Implement automatic quiz grading and student feedback
   ```
@@ -207,7 +192,6 @@ Moving forward with the development of the Online Learning Platform, there are s
 - **Description**: Implement a notification system that will send students and instructors notifications about important events like new course enrollments, quiz results, and course completion.
   - **Email Notifications**: Integrate with the Spring Boot email system to send notifications via email.
   - **In-app Notifications**: Display real-time notifications in the platform’s dashboard.
-- **Commit Message**:
   ```
   feat: Implement notification system for course enrollments, quiz results, and course completion
   ```
@@ -223,7 +207,6 @@ Moving forward with the development of the Online Learning Platform, there are s
 - **Description**: Integrate logging and monitoring to track system performance and detect potential issues. This will include implementing logging for all key operations (user login, quiz submissions, course creation, etc.) and setting up monitoring to track resource usage.
   - **Logging**: Implement structured logging using Logback for all major system activities.
   - **Monitoring**: Set up monitoring tools like Prometheus and Grafana for tracking application health and performance.
-- **Commit Message**:
   ```
   feat: Add logging and monitoring for system performance and error detection
   ```
@@ -241,7 +224,6 @@ Moving forward with the development of the Online Learning Platform, there are s
   - **Payment Flow**: Set up a secure payment flow that integrates with a payment gateway.
   - **Receipts**: Provide receipts to students after successful payments.
   - **Premium Courses**: Lock premium content until the payment is completed.
-- **Commit Message**:
   ```
   feat: Integrate payment gateway for premium courses
   ```
