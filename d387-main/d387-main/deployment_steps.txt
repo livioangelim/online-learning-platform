@@ -1,0 +1,5 @@
+1. To deploy my multithreaded Spring web application to the cloud, I would choose Microsoft Azure as my cloud provider.
+2. First I would set up an Azure Container Registry to store my image.
+3. Next I would build my image with an appropriate version tag like `latest` and push it to registry.
+4. Then I would create an Azure Container Instance using the imaged I pushed to the ACR in step 3.
+5. Finally, I would deploy the Azure Container Instance which would make it accessible and live.
