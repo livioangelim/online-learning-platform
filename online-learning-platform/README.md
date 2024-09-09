@@ -192,7 +192,8 @@ Moving forward with the development of the Online Learning Platform, there are s
 - **Description**: Implement a notification system that will send students and instructors notifications about important events like new course enrollments, quiz results, and course completion.
   - **Email Notifications**: Integrate with the Spring Boot email system to send notifications via email.
   - **In-app Notifications**: Display real-time notifications in the platform’s dashboard.
-  ```
+  
+- ```
   feat: Implement notification system for course enrollments, quiz results, and course completion
   ```
 
