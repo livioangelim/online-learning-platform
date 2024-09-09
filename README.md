@@ -1,5 +1,5 @@
 # Online Learning Platform
-A comprehensive online learning platform featuring course management, student enrollment, quizzes, role-based access control and progress tracking. Built using Spring Boot, JWT, and MySQL.
+A comprehensive online learning platform featuring course management, student enrollment, quizzes, role-based access control and progress tracking. Built using Spring Boot, JWT, Thymeleaf and MySQL.
 
 ---
 ## A. Branch and Feature Organization
