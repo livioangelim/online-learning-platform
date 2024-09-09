@@ -82,6 +82,7 @@ The project has been divided into feature-based branches for modular development
   ```
   
 ---
+### A6. 
 ## B. Further Implementations
 Moving forward with the development of the Online Learning Platform, there are several critical areas that need to be addressed, such as Front-End development, security enhancements, and additional features for better functionality and user experience. Below are the proposed next steps for further implementation:
 
